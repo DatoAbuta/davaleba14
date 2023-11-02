@@ -1,0 +1,161 @@
+@media(width >=768px){
+    .container{
+        background-image:
+        url(./assets/tab1.svg),
+        url(./assets/tab2.svg),
+        url(./assets/tab3.svg),
+        url(./assets/tab4.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0%,80% 0%, 100% 10%, 0% 0%;
+    }
+
+    header{
+        margin-left: 39px;
+        margin-top: 61px;
+    }
+    .box{
+        margin-left: 39px;
+        margin-top: 91px;
+    }
+    .we{
+        width: 520px;
+        color: #191826;
+        font-family: IBM Plex Sans;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -0.727px;
+    }
+    .A{
+        width: 514px;
+        color: #191826;
+        font-family: IBM Plex Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 28px;
+    }
+    .boxebi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 111px;
+    }
+    .blackbox{
+        width: 696px;
+    }
+    .midbox{
+        position: relative;
+        z-index: 5;
+        top: -200px;
+        left: 70px;
+    }
+    .blackbox img{
+        position: relative;
+        right: 160px;
+        bottom: -20px;
+        width: 270.206px;
+        height: 556px;
+    }
+    footer{
+        margin-top: -87px;
+        display: flex;
+        margin-left: 33px;
+        gap: 230px;
+    }
+    .all{
+        width: 366px;
+    }
+}
+
+@media(width>=1440px){
+    header{
+        margin-left: 165px;
+        margin-top: 62px;
+    }
+    .we{
+        color: #191826;
+        font-family: IBM Plex Sans;
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: -1px;
+        width: 1015px;
+    }
+    .box{
+        margin-left: 165px;
+        margin-top: 127px;
+    }
+    .A{
+        color: #191826;
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        width: 825px;
+    }
+    .blackbox{
+        width: 1110px;
+        margin-top: 204px;
+    }
+    .blackbox img{
+        width: 299.029px;
+        height: 628.63px;
+        flex-shrink: 0;
+        right: 267px;
+    }
+    .midbox{
+        width: 446px;
+        height: 625px;
+        flex-shrink: 0;
+        left: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prem{
+        width: 333px;
+        color: #FCFAF9;
+        font-family: IBM Plex Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+    }
+    .get{
+        color: #FCFAF9;
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        width: 333px;
+    }
+    footer{
+        display: flex;
+        margin-left: 165px;
+        gap: 359px;
+    }
+    .buttons{
+        margin-top: 46px;
+    }
+    button{
+        width: 333px;
+        height: 61px;
+    }
+    .left{
+        display: flex;
+        gap: 137px;
+    }
+    .all{
+        margin-top: 0;
+        width: 366px;
+    }
+    .logoes{
+        margin-top: 29px;
+    }
+}

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:ital,wght@0,300;0,600;1,400&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    align-items: center;
+    background-image: url(./assets/blue.svg) , url(./assets/orange.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0 , 100% 0 ;
+    overflow-x: hidden;
+}
+
+header{
+    margin-left: 24px;
+    margin-top: 40px;
+}
+
+.box{
+    margin-left: 24px;
+    margin-top: 64px;
+}
+
+.we{
+    width: 327px;
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.455px;
+}
+
+.A{
+    margin-top: 20px;
+    width: 327px;
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.blackbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border-radius: 12px;
+    background: #191826;
+    background-image: url(./assets/blackbox1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    margin-top: 166px;
+}
+
+.blackbox img{
+    margin-bottom: 370px;
+}
+
+.midbox{
+    border-radius: 12px;
+    background: #FA7453;
+    padding: 48px 36px;
+    margin-top: -220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prem{
+    width: 302px;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.get{
+    width: 302px;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+.dol{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    display: flex;
+    margin-left: 6px;
+    align-items: center;
+    margin-top: 36px;
+}
+
+span{
+    color: #FCFAF9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    font-family: IBM Plex Sans;
+    margin-left: 16px;
+}
+
+.buttons{
+    margin-top: 32px;
+}
+
+button{
+    border: none;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+}
+
+.button1{
+    background: #191826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    background: #FCFAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.ios{
+    color: #FCFAF9;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+.android{
+    color: #191826;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+.button1:hover{
+    background: #66E2DC;
+}
+
+.button2:hover{
+    background: #FFB964;
+}
+
+footer{
+    margin-top: 63px;
+    margin-left: 24px;
+}
+
+.all{
+    width: 327px;
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
+}
+
+.mail{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.logoes{
+    margin-top: 64px;
+    margin-bottom: 80px;
+}
